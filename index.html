@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <link rel="stylesheet" href="./css/main.css">
+   <title>Speach</title>
+</head>
+<body>
+
+   <h1 style="text-align: center; margin-top: 10px">
+      Look for your favorite actors
+   </h1>
+   
+   <div class="container">
+      
+      <form class="form d-flex align-items-center justify-content-center pt-3">
+         
+         <label class="label">
+            <input style="appearance: none;" class="form-control input" type="search" placeholder="Search for actors by Name">
+         </label>
+         
+         <button class="btn btn-src btn-primary" type="submit">
+            Search
+         </button>
+         
+         <button type="button" class="btn-rec">
+            <img class="mic-img" src="./img/mic.png" alt="micro">
+         </button>
+
+         <div class="lds-ellipsis animation"><div></div><div></div><div></div><div></div></div>
+
+         <a style="display: none;" class="btn btn-rest btn-secondary ms-3" href="./index.html">
+            Refresh
+         </a>
+         
+      </form>
+
+
+
+
+      <div class="content">
+
+      </div>
+
+   </div>
+
+ 
+   
+   <script src="./js/actor.js"></script>
+   <script src="./js/scripts.js"></script>
+</body>
+</html>

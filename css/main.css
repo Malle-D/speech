@@ -1,0 +1,239 @@
+.bg-white p, .bg-white h2, .bg-white h1 {
+   color: #fff;
+}
+.bg1{
+   background-color: #78b4d5;
+   background-image: url("https://static.okko.tv/images/v2/13574293?scale=1&quality=80");
+   background-repeat: no-repeat;
+   background-size: 100vw;
+}
+.bg2{
+   background-color: #78b4d5;
+   background-image: url("https://avatars.mds.yandex.net/get-zen_doc/1581470/pub_5f3d5d4073e8d80174b22079_5f3d5d6873e8d80174b901a4/scale_1200");
+   background-size: 100vw;
+}
+.bg3{
+   background-color: #78b4d5;
+   background-image: url("https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVLVgTa0-KXsjVOcT5-GA5iePRDNiAvL4T5498YYjCw7rf5cmgBjzTNVMVlHKu5ha4xfSGwiuFBFBvxi7255leVJWGbK.jpg?r=cfd");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100vw;
+}
+.bg4{
+   background-color: #78b4d5;
+   background-image: url("https://avatars.mds.yandex.net/i?id=043b4435a0f64701505a1b61656a8c97-5299516-images-thumbs&n=13");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100vw;
+}
+.bg5{
+   background-color: #78b4d5;
+   background-image: url("https://images.squarespace-cdn.com/content/v1/58aabe1e9f74561f4dc712dd/1488036291600-7R2QUWU4MA0G0VFYRIZT/la-la-land-585c617a5f650.jpg?format=2500w");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100vw;
+}
+.bg7{
+   background-color: #78b4d5;
+   background-image: url("https://wallpapercave.com/wp/wp5271823.png");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg8{
+   background-color: #78b4d5;
+   background-image: url("https://somoswoow.files.wordpress.com/2016/08/leodicapriomoney.jpg?w=1400");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg9{
+   background-color: #78b4d5;
+   background-image: url("https://media.vanityfair.com/photos/54ef7d15a8d6884651e6bbaa/master/w_2560%2Cc_limit/will-smith-margot-robbie-focus.jpg");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg10{
+   background-color: #78b4d5;
+   background-image: url("https://4.bp.blogspot.com/-dBpu7QGyAkY/WpXc7hsYp-I/AAAAAAAAJE4/LiUSc34gYHImMhgWOCwaJDPEPrqM9IX7ACLcBGAs/w1600/titanic-wallpapers-hd.jpg");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg12{
+   background-color: #78b4d5;
+   background-image: url("https://static.okko.tv/images/v2/13133588");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg13{
+   background-color: #78b4d5;
+   background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/06/13/102400/cb9672e1a5a16af1b90cb773408cb666.jpg");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg14{
+   background-color: #78b4d5;
+   background-image: url("https://static.cinemagia.ro/img/db/movie/01/00/34/charlie-and-the-chocolate-factory-311584l.jpg");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg15{
+   background-color: #78b4d5;
+   background-image: url("https://get.wallhere.com/photo/fantastic-beasts-Harry-Potter-1273611.jpg");
+   background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.bgi-close{
+   background-color: #fff;
+   background-image: none;
+}
+.form{
+   height: 80px;
+}
+.label{
+   position: relative;
+   z-index: 1;
+}
+.input{
+   width: 260px;
+}
+.label::before{
+   content: "";
+   position: absolute;
+   z-index: 1;
+   background-image: url(../img/lupa.svg);
+   background-size: cover;
+   width: 25px;
+   height: 25px;
+   right: -30px;
+   top: 6px;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+.btn-src{
+   display: none;
+   margin: 0px 0px 0px 40px;
+}
+.btn-rec{
+   border: none;
+   background-color: transparent;
+   margin-left: 30px;
+}
+.mic-img{
+   width: 28px;
+   height: 28px;
+}
+
+.content{
+   margin-top: 25px;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 50px;
+}
+.info{
+   margin-left: 25px;
+   display: flex;
+   flex-direction: column;
+   width: 475px;
+}
+.list{
+   display: flex;
+   margin: 0px;
+   margin-top: auto;
+   padding: 0px;
+}
+.item{
+   list-style: none;
+   width: 142px;
+   border-radius: 5px;
+   border: 1px solid gray;
+   background-color: #fff;
+}
+.item + .item{
+   margin-left: 24px;
+}
+.film-link{
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+}
+.film-info{
+   padding: 5px 0px 0px 5px;
+}
+.film-info p{
+   color: #0d6efd;
+}
+.film-info p:hover{
+   color: #0a58ca;
+}
+.film-name{
+   font-size: 16px;
+}
+
+
+
+.lds-ellipsis {
+   display: none;
+   position: relative;
+   z-index: 10;
+   width: 80px;
+   height: 80px;
+   margin-left: 24px;
+}
+.lds-ellipsis div {
+   position: absolute;
+   top: 33px;
+   width: 13px;
+   height: 13px;
+   border-radius: 50%;
+   background: #78b4d5;
+   animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+   left: 8px;
+   animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+   left: 8px;
+   animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+   left: 32px;
+   animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+   left: 56px;
+   animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+   0% {
+      transform: scale(0);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+@keyframes lds-ellipsis3 {
+   0% {
+      transform: scale(1);
+   }
+   100% {
+      transform: scale(0);
+   }
+}
+@keyframes lds-ellipsis2 {
+   0% {
+      transform: translate(0, 0);
+   }
+   100% {
+      transform: translate(24px, 0);
+   }
+}
